@@ -1,3 +1,6 @@
 {
-    "ros.distro": "melodic"
+    "ros.distro": "melodic",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "D:\\APP\\Miniconda3\\Scripts\\activate.bat D:\\APP\\Miniconda3"],   //此处是miniconda3所在的位置
 }
