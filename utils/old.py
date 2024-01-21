@@ -528,7 +528,7 @@ if __name__ == "__main__":
                         help="The iou threshold for the nms, default: 0.45")
     parser.add_argument("--scores_thres", default=0.25, type=float,
                         help="The scores threshold for the nms, default: 0.25")
-    parser.add_argument("-i", "--img_path", default="python/src/video1.mp4")
+    parser.add_argument("-i", "--img_path", default="data/imgs/video1.mp4")
     parser.add_argument("-m", "--mode", default="video")
     
     args = parser.parse_args()
